@@ -1542,66 +1542,6 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>SU9LaXQ=</data>
-                    <key>Identifier</key>
-                    <string>com.apple.driver.AppleIntelLpssI2C</string>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>Replace</key>
-                    <data>SU9LaXM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>Base</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>SU9LaXQ=</data>
-                    <key>Identifier</key>
-                    <string>com.apple.driver.AppleIntelLpssI2CController</string>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>Replace</key>
-                    <data>SU9LaXM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>Base</key>
-                    <string></string>
-                    <key>Comment</key>
                     <string>Enable TRIM for SSD</string>
                     <key>Count</key>
                     <integer>0</integer>
