@@ -1,7 +1,7 @@
 # Lenovo Ideapad 320-15IKB (80YH) Opencore Hackintosh 
 [![Code](https://img.shields.io/badge/download-release-blue.svg)](https://github.com/miltoncsjunior/HackintoshOCYoga520-14IKB.git)
 
-A guide for installing macOS Sequoia 15.3.7 on Lenovo Ideapad 320-15IKB using OpenCore 1.0.3 UEFI.
+A guide for installing macOS Sequoia 15.3.1 on Lenovo Ideapad 320-15IKB using OpenCore 1.0.3 UEFI.
 ![](Images/Laptop.png)
 
 
