@@ -606,6 +606,8 @@
                 <false/>
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
+                <key>ClearTaskSwitchBit</key>
+                <false/>
                 <key>DevirtualiseMmio</key>
                 <false/>
                 <key>DisableSingleUser</key>
@@ -650,12 +652,7 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-                <dict>
-                    <key>acpi-wake-type</key>
-                    <data>AQ==</data>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1C,0x5)/Pci(0x0,0x0)</key>
+                <key>#PciRoot(0x0)/Pci(0x1C,0x5)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>IOName</key>
                     <string>pci14e4,43a0</string>
@@ -677,6 +674,11 @@
                     <data>axAAAA==</data>
                     <key>vendor-id</key>
                     <data>5BQAAA==</data>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+                <dict>
+                    <key>acpi-wake-type</key>
+                    <data>AQ==</data>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
@@ -746,7 +748,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.4 | SMC emulator</string>
+                    <string>V1.3.5 | SMC emulator</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -782,7 +784,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.4 | Battery patches, pair with VirtualSMC kext</string>
+                    <string>V1.3.5 | Battery patches, pair with VirtualSMC kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -800,7 +802,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.4 | Processor patches, pair with VirtualSMC kext</string>
+                    <string>V1.3.5 | Processor patches, pair with VirtualSMC kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -818,7 +820,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.4 | Fan patches, pair with VirtualSMC kext</string>
+                    <string>V1.3.5 | Fan patches, pair with VirtualSMC kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -926,7 +928,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.3 | Audio patches, pair with Lilu kext</string>
+                    <string>V1.9.4 | Audio patches, pair with Lilu kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1268,7 +1270,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.2 | Enable ethernet</string>
+                    <string>V2.5.0 | Enable ethernet</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
